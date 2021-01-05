@@ -1,5 +1,6 @@
 
-install.packages("mice")
+
+install.packages("mice", repos = "http://cran.us.r-project.org")
 library(mice)
 
 Impute_tibble_OneStop <- function(input) {
