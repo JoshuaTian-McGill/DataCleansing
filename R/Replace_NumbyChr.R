@@ -1,4 +1,10 @@
 
+#' Replaces all numbers in a character string by letters
+#'
+#' @param input is a character string with numbers
+#' @return a character without numbers
+#' @export
+
 
 Replace_NumbyChr <- function(input) {
 

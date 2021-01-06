@@ -6,5 +6,3 @@ Mode <- function(input) {
   uinput_noNA <- uinput[!is.na(uinput)]
   uinput_noNA[which.max(tabulate(match(input, uinput_noNA)))]
 }
-
-

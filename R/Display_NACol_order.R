@@ -1,4 +1,10 @@
 
+#' Display the NA information in a data frame
+#' Display NA percentages of columns in descending order
+#'
+#' @param input is a data frame
+#' @return a data frame with 2 columns: variable name, NA percentage
+#' @export
 
 Display_NACol_order <- function(input) {
 

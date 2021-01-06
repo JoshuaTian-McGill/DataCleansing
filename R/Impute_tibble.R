@@ -1,5 +1,11 @@
 
-# Impute an all-character tibble
+#' Impute an all-character tibble
+#'
+#' @param input is a tibble containing NA's
+#' @return is a NA-free tibble
+#' @export
+
+
 
 Impute_tibble <- function(input) {
 
