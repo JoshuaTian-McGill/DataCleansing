@@ -1,11 +1,10 @@
 Package: DataCleansing
 Type: Package
-Title: What the Package Does (Title Case)
+Title: This package provides a collection of tools to cleanse data
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Joshua Tian
+Maintainer: Joshua Tian <jingbo.tian@mail.mcgill.ca>
+Description: The tools include missing value detection/visualization/imputation.
+License: MIT
 Encoding: UTF-8
 LazyData: true
