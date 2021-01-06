@@ -1,4 +1,12 @@
 
+#' A one stop imputation device for a tibble
+#'
+#' Impute numeric variables with "mice" function from "mice" packge
+#' Impute character variables with corresponding modes
+#'
+#' @param input a tibble with NA's
+#' @return a tibble with all NA's imputed
+#' @export
 
 
 Impute_tibble_OneStop <- function(input) {

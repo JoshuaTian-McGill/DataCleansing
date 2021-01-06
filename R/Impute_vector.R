@@ -1,4 +1,11 @@
 
+#' Impute a vector with a designated value
+#'
+#' @param input1 is the one-column data frame to be imputed
+#' @param input2 is the designated value to impute input1
+#' @return return a one-column data frame free of NA's
+#' @export
+
 Impute_vector <- function(input1, input2) {
 
   if(!is.data.frame(input1)) stop("input1 must be a data frame")

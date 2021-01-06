@@ -1,5 +1,5 @@
 
-# Return the non-NA statistical mode of a character/numeric string.
+#' Return the non-NA statistical mode of a character/numeric string.
 
 Mode <- function(input) {
   uinput <- unique(input)
