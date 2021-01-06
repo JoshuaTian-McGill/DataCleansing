@@ -1,10 +1,10 @@
 
 
-install.packages("mice", repos = "http://cran.us.r-project.org")
-library(mice)
 
 Impute_tibble_OneStop <- function(input) {
 
+  install.packages("mice", repos = "http://cran.us.r-project.org")
+  library(mice)
 
   names(input) <- Replace_NumbyChr(names(input))
 
