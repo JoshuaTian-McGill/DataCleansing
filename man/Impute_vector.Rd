@@ -12,7 +12,7 @@ Impute_vector(input1, input2)
 \item{input2}{is the designated value to impute input1}
 }
 \value{
-return a one-column data frame free of NA's
+return a one-column data frame free of NAs
 }
 \description{
 Impute a vector with a designated value

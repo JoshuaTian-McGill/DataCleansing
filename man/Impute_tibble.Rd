@@ -7,7 +7,7 @@
 Impute_tibble(input)
 }
 \arguments{
-\item{input}{is a tibble containing NA's}
+\item{input}{is a tibble containing NAs}
 }
 \value{
 is a NA-free tibble

@@ -3,7 +3,7 @@
 #'
 #' @param input1 is the one-column data frame to be imputed
 #' @param input2 is the designated value to impute input1
-#' @return return a one-column data frame free of NA's
+#' @return return a one-column data frame free of NAs
 #' @export
 
 Impute_vector <- function(input1, input2) {

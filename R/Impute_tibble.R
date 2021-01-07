@@ -1,11 +1,11 @@
 
 #' Impute an all-character tibble
 #'
-#' @param input is a tibble containing NA's
+#' @param input is a tibble containing NAs
 #' @return is a NA-free tibble
 #' @export
 
-
+# roxygen2::roxygenize()
 
 Impute_tibble <- function(input) {
 

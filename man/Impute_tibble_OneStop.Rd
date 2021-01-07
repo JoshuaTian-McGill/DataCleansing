@@ -7,10 +7,10 @@
 Impute_tibble_OneStop(input)
 }
 \arguments{
-\item{input}{a tibble with NA's}
+\item{input}{a tibble with NAs}
 }
 \value{
-a tibble with all NA's imputed
+a tibble with all NAs imputed
 }
 \description{
 Impute numeric variables with "mice" function from "mice" packge
